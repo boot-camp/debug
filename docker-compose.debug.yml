@@ -10,5 +10,5 @@ services:
       - ${SRC:-./src}:/usr/src/app/
     ports:
       - 8000:8000
-      - 5858:5858
-    command: nodemon -L --inspect=0.0.0.0:5858 app.js
+      - 9229:9229
+    command: nodemon -L --inspect=0.0.0.0:9229 app.js
