@@ -1,0 +1,17 @@
+{
+  "name": "debug",
+  "version": "0.1.0",
+  "description": "Live Debugging Node.js with docker and vscode",
+  "main": "app.js",
+  "repository": "https://github.com/boot-camp/debug.git",
+  "author": "agcorp.io <widjaja_a.msn.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "latest",
+    "express-handlebars": "latest"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1"
+  }
+}
